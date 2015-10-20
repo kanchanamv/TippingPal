@@ -19,7 +19,12 @@ Completed:
 [*] Others: Keyboard is always visible on app restart and the bill amount is the first responder
 [*] Others: Theming Settings page
 
+# Required and Optional User Stories Walkthrough:
 ![Video Walkthrough] (Required and Optional Items.gif)
+
+# Settings Page Walkthrough:
 ![Video Walkthrough] (Settings Walkthrough.gif)
+
+# Localization Walkthrough:
 ![Video Walkthrough] (Localization Walkthrough.gif)
 
