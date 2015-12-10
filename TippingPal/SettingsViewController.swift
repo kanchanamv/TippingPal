@@ -36,10 +36,13 @@ class SettingsViewController : UIViewController {
     }
     
     override func viewDidLoad() {
+        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "pebbles.png")!)
+        
         defaultSubParTip.text = String(TipHelper.getSubparServiceTip())
         defaultAverageTip.text = String( TipHelper.getAverageServiceTip())
         defaultExcellentTip.text = String( TipHelper.getExcellentServiceTip())
-    }
+        
+        }
     
     
     //    @IBAction func onValueChanged (sender : AnyObject) {

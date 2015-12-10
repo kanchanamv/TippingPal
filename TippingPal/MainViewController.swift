@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 
 class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
@@ -27,6 +28,8 @@ class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "pebbles.png")!)
+       // self.updateUI()
         setupTipPicker()
         
         let tipPercentage: Double = Double(kTipPercentageValues[7])/100;
@@ -220,4 +223,8 @@ class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         currencyFormatter.locale = NSLocale.currentLocale()
         return currencyFormatter.stringFromNumber(value)!
     }
+    
+//        func updateUI() {
+//            view.backgroundColor = UIColor(patternImage: UIImage(named:"deckpng")!)
+//        }
 }
