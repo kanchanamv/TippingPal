@@ -37,10 +37,10 @@
 		C089AB4A1BD406150017A3DD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C089AB4C1BD4096E0017A3DD /* RoundingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundingType.swift; sourceTree = "<group>"; };
 		C089AB4E1BD41AB30017A3DD /* TipHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipHelper.swift; sourceTree = "<group>"; };
-		C089AB501BD474AF0017A3DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C0CF2AE51BD566BF009D67AB /* Localization Walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Localization Walkthrough.gif"; sourceTree = "<group>"; };
-		C0CF2AE71BD566CF009D67AB /* Settings Walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Settings Walkthrough.gif"; sourceTree = "<group>"; };
-		C0CF2AE81BD566CF009D67AB /* Required and Optional Items.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Required and Optional Items.gif"; sourceTree = "<group>"; };
+		C089AB501BD474AF0017A3DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = TippingPal/README.md; sourceTree = "<group>"; };
+		C0CF2AE51BD566BF009D67AB /* Localization Walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "Localization Walkthrough.gif"; path = "TippingPal/Localization Walkthrough.gif"; sourceTree = "<group>"; };
+		C0CF2AE71BD566CF009D67AB /* Settings Walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "Settings Walkthrough.gif"; path = "TippingPal/Settings Walkthrough.gif"; sourceTree = "<group>"; };
+		C0CF2AE81BD566CF009D67AB /* Required and Optional Items.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "Required and Optional Items.gif"; path = "TippingPal/Required and Optional Items.gif"; sourceTree = "<group>"; };
 		C0EC5ECE1BD1A82A002F443A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D1FB4565D3F0FD8C752061DE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +78,10 @@
 		C06E7B8A1BD054C500393D81 = {
 			isa = PBXGroup;
 			children = (
+				C089AB501BD474AF0017A3DD /* README.md */,
+				C0CF2AE81BD566CF009D67AB /* Required and Optional Items.gif */,
+				C0CF2AE71BD566CF009D67AB /* Settings Walkthrough.gif */,
+				C0CF2AE51BD566BF009D67AB /* Localization Walkthrough.gif */,
 				C06E7B951BD054C500393D81 /* TippingPal */,
 				C06E7B941BD054C500393D81 /* Products */,
 				14EA01DE5C91A5379FCCFCF2 /* Pods */,
@@ -106,10 +110,6 @@
 				C06E7B9D1BD054C500393D81 /* Assets.xcassets */,
 				C06E7B9F1BD054C500393D81 /* LaunchScreen.storyboard */,
 				C06E7BA21BD054C500393D81 /* Info.plist */,
-				C089AB501BD474AF0017A3DD /* README.md */,
-				C0CF2AE81BD566CF009D67AB /* Required and Optional Items.gif */,
-				C0CF2AE71BD566CF009D67AB /* Settings Walkthrough.gif */,
-				C0CF2AE51BD566BF009D67AB /* Localization Walkthrough.gif */,
 			);
 			path = TippingPal;
 			sourceTree = "<group>";
