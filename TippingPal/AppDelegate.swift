@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Armchair
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Armchair.appID("987257804")
+        //Armchair.userDidSignificantEvent(true)
+        //Armchair.significantEventsUntilPrompt(1)
+        Armchair.debugEnabled(true)
         return true
     }
 
